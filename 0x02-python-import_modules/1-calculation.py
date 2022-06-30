@@ -2,11 +2,7 @@
 from calculator_1 import *
 a = 10
 b = 5
-sums = add(a, b)
-subt = sub(a, b)
-mults = mul(a, b)
-divs = div(a, b)
-print("{:d} + {:d} = {:d}".format(a, b, sums))
-print("{:d} - {:d} = {:d}".format(a, b, subt))
-print("{:d} * {:d} = {:d}".format(a, b, mults))
-print("{:d} / {:d} = {:d}".format(a, b, divs)) 
+print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
+print("{:d} - {:d} = {:d}".format(a, b, sub(a, b)))
+print("{:d} * {:d} = {:d}".format(a, b, mul(a, b)))
+print("{:d} / {:d} = {:d}".format(a, b, div(a, b))) 
