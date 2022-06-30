@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-import sys
-count = len(sys.argv)
-i = 2
-print("{:d} arguments:".format(count-1))
-while i <= count:
-    print("{:d}: {:s}".format(i-1, sys.argv[i - 1]))
-    i+=1
+if __name__ == "__main__":
+    from sys import argv
+    count = len(argv)
+    i = 2
+    print("{:d} arguments:".format(count-1))
+    while i <= count:
+        print("{:d}: {:s}".format(i-1, argv[i - 1]))
+        i+=1
           
