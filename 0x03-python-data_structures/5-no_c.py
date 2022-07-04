@@ -4,4 +4,4 @@ def no_c(my_string):
     for char in lists:
         if char == 'c' or char == 'C':
             lists.remove(char)
-        return("".join(lists))
+    return("".join(lists))
