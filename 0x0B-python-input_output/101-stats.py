@@ -1,7 +1,8 @@
 #!/usr/bin/python3
+"""Load, add, save"""
+
+
 import sys
-
-
 def print_info():
     """
     print info function
